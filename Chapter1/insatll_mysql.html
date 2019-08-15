@@ -1,0 +1,517 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1.2 MySQL 数据库 · 构建个人金融平台</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="鎏金天涯 <mai.yongfeng@gmail.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="python_and_jupyter.html" />
+    
+    
+    <link rel="prev" href="install_nodejs.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://goldentianya.pub" target="_blank" class="custom-link">鎏金天涯个人博客</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    第一章 基础环境的搭建
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="install_nodejs.html">
+            
+                <a href="install_nodejs.html">
+            
+                    
+                    1.1 Node 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="insatll_mysql.html">
+            
+                <a href="insatll_mysql.html">
+            
+                    
+                    1.2 MySQL 数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="python_and_jupyter.html">
+            
+                <a href="python_and_jupyter.html">
+            
+                    
+                    1.3 Python 以及 Jupyter Notebook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="install_angular.html">
+            
+                <a href="install_angular.html">
+            
+                    
+                    1.4 Angular 环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Chapter2/">
+            
+                <a href="../Chapter2/">
+            
+                    
+                    第二章 后台数据服务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <span>
+            
+                    
+                    数据爬取
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" >
+            
+                <span>
+            
+                    
+                    数据加工
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第三章 前台网站
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                    网站整体设计
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" >
+            
+                <span>
+            
+                    
+                    蚂蚁可视化方案
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第四章 用户管理和推广
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >1.2 MySQL 数据库</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="mysql-&#x6570;&#x636E;&#x5E93;">MySQL &#x6570;&#x636E;&#x5E93;</h1>
+<h2 id="&#x5B89;&#x88C5;&#x6570;&#x636E;&#x5E93;">&#x5B89;&#x88C5;&#x6570;&#x636E;&#x5E93;</h2>
+<p>&#x4E0B;&#x8F7D;&#x5E76;&#x5B89;&#x88C5;<a href="https://dev.mysql.com/downloads/mysql/" target="_blank">MySQL</a>&#x3002;&#x5B8C;&#x6210;&#x540E;&#x6253;&#x5F00;Mac&#x7684;<code>&#x504F;&#x597D;&#x8BBE;&#x7F6E;</code>&#xFF0C;&#x8FD0;&#x884C;&#x6570;&#x636E;&#x5E93;&#x3002;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7528;&#x547D;&#x4EE4;&#x884C;&#x5B89;&#x88C5;</p>
+<pre><code class="lang-sh">$ sudo apt-get install mysql-server
+$ sudo apt-get install mysql-client
+&#x5B89;&#x88C5;&#x65F6;&#x8F93;&#x51FA;root&#x7528;&#x6237;&#x7684;&#x5BC6;&#x7801;
+</code></pre>
+<p>&#x4E3A;&#x7CFB;&#x7EDF;&#x8BBE;&#x7F6E;&#x547D;&#x4EE4;&#x8DEF;&#x5F84;&#x3002;</p>
+<pre><code class="lang-sh">PATH=<span class="hljs-string">&quot;<span class="hljs-variable">$PATH</span>&quot;</span>:/usr/<span class="hljs-built_in">local</span>/mysql/bin
+</code></pre>
+<p>&#x5728;Mac&#x7CFB;&#x7EDF;&#x4E0B;&#x6BCF;&#x6B21;&#x91CD;&#x542F;&#x7EC8;&#x7AEF;&#x90FD;&#x8981;&#x91CD;&#x65B0;&#x7ED9;PATH&#x8D4B;&#x503C;&#xFF0C;&#x8981;&#x628A;&#x5B83;&#x4FDD;&#x5B58;&#x5230;&#x8BBE;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<pre><code class="lang-sh">mysql -V
+zsh: <span class="hljs-built_in">command</span> not found
+<span class="hljs-built_in">cd</span> ~
+sudo vim .bash_profile
+<span class="hljs-comment"># &#x52A0;&#x5165;&#x8FD9;&#x884C;</span>
+<span class="hljs-built_in">export</span> PATH=<span class="hljs-variable">${PATH}</span>:/usr/<span class="hljs-built_in">local</span>/mysql/bin/
+&#x4FDD;&#x5B58;&#x9000;&#x51FA;&#x540E;
+<span class="hljs-built_in">source</span> ~/.bash_profile
+</code></pre>
+<p>&#x5E76;&#x7528;&#x5BC6;&#x7801;&#x767B;&#x9646;&#x5230;&#x6839;&#x7528;&#x6237;</p>
+<pre><code>mysql -u root -p
+mysql&gt; show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.01 sec)
+
+mysql&gt; select * from mysql.user;
+# &#x8FD0;&#x884C;&#x9000;&#x51FA;&#x547D;&#x4EE4;
+</code></pre><h2 id="&#x914D;&#x7F6E;&#x7528;&#x6237;&#x6743;&#x9650;">&#x914D;&#x7F6E;&#x7528;&#x6237;&#x6743;&#x9650;</h2>
+<p>&#x914D;&#x7F6E;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x7684;&#x8BBF;&#x95EE;&#x6743;&#x9650;&#xFF0C;&#x8BF7;&#x770B;&#x53E6;&#x5916;&#x4E00;&#x7BC7;&#x6587;&#x7AE0; <a href="https://goldentianya.pub/wiki/config-mysql-access-privileges-on-vps.html" target="_blank">&#x914D;&#x7F6E;&#x670D;&#x52A1;&#x5668;&#x6BB5;MySQL</a>&#x3002;&#x4F46;&#x5982;&#x679C;&#x5B89;&#x88C5;&#x4E86; phpmyadmin &#x5219;&#x6CA1;&#x6709;&#x5FC5;&#x8981;&#x4E86;&#x3002;&#x56E0;&#x4E3A;&#x4E0D;&#x9700;&#x8981;&#x4ECE;&#x5916;&#x90E8;&#x76F4;&#x63A5;&#x8BBF;&#x95EE;&#x6570;&#x636E;&#x5E93;&#x3002;&#x5C06;&#x6765;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x8F6F;&#x4EF6;&#x8981;&#x8BFB;&#x53D6;&#x6570;&#x636E;&#x7684;&#x8BDD;&#xFF0C;&#x4E5F;&#x53EA;&#x80FD;&#x901A;&#x8FC7; web service &#x63A5;&#x53E3;&#x3002;</p>
+<h2 id="&#x91CD;&#x8BBE;&#x5BC6;&#x7801;">&#x91CD;&#x8BBE;&#x5BC6;&#x7801;</h2>
+<p>mac &#x4E0A;&#x5148;&#x901A;&#x8FC7;<code>&#x504F;&#x597D;&#x8BBE;&#x7F6E;</code>&#x505C;&#x6B62;&#x6570;&#x636E;&#x5E93;&#x8FD0;&#x884C;&#xFF0C;&#x5728;&#x7EC8;&#x7AEF;&#x8F93;&#x5165;</p>
+<pre><code class="lang-sh"><span class="hljs-built_in">cd</span> /usr/<span class="hljs-built_in">local</span>/mysql/bin/
+<span class="hljs-comment"># &#x56DE;&#x8F66;&#x540E;&#x767B;&#x5F55;&#x7BA1;&#x7406;&#x5458;&#x6743;&#x9650;</span>
+sudo su
+<span class="hljs-comment"># &#x56DE;&#x8F66;&#x540E;&#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x6765;&#x7981;&#x6B62;mysql&#x9A8C;&#x8BC1;&#x529F;&#x80FD;</span>
+./mysqld_safe --skip-grant-tables &amp;
+<span class="hljs-comment"># &#x56DE;&#x8F66;&#x540E;mysql&#x4F1A;&#x81EA;&#x52A8;&#x91CD;&#x542F;&#xFF08;&#x504F;&#x597D;&#x8BBE;&#x7F6E;&#x4E2D;mysql&#x7684;&#x72B6;&#x6001;&#x4F1A;&#x53D8;&#x6210;running&#xFF09;</span>
+<span class="hljs-comment"># &#x8FD0;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;</span>
+./mysql
+FLUSH PRIVILEGES
+SET PASSWORD FOR <span class="hljs-string">&apos;root&apos;</span>@<span class="hljs-string">&apos;localhost&apos;</span> = PASSWORD(<span class="hljs-string">&apos;&#x4F60;&#x7684;&#x65B0;&#x5BC6;&#x7801;&apos;</span>);
+</code></pre>
+<h2 id="&#x7BA1;&#x7406;&#x540E;&#x53F0;-phpmyadmin">&#x7BA1;&#x7406;&#x540E;&#x53F0; phpmyadmin</h2>
+<pre><code class="lang-sh">$ sudo apt-get install phpmyadmin
+$ sudo apt-get install php-mbstring
+$ sudo apt-get install php-gettext
+<span class="hljs-comment"># &#x5B89;&#x88C5;&#x65F6;&#x9009;&#x62E9;&#x81EA;&#x52A8;&#x914D;&#x7F6E;&#x6570;&#x636E;&#x5E93;&#xFF0C;&#x8F93;&#x5165;&#x6570;&#x636E;&#x5E93;root&#x8D26;&#x53F7;&#x7684;&#x5BC6;&#x7801;</span>
+<span class="hljs-comment"># &#x5982;&#x679C;&#x4E0D;&#x5B89;&#x88C5;&#x4EE5;&#x4E0A;&#x4E24;&#x4E2A;php&#x8F6F;&#x4EF6;&#x5305;&#xFF0C;&#x5219;&#x4F1A;&#x62A5;&#x9519;&#x6216;&#x8005;&#x767D;&#x5C4F;&#xFF0C;&#x63D0;&#x793A;&#x627E;&#x4E0D;&#x5230;/usr/share/php/php-gettext/gettext.inc&#x4E4B;&#x7C7B;&#x7684;&#x9519;&#x8BEF;</span>
+</code></pre>
+<ul>
+<li>&#x5BF9;&#x4E8E;&#x670D;&#x52A1;&#x5668;&#x9009;&#x62E9;&#xFF0C;&#x8BF7;&#x9009;&#x62E9;apache2 &#x3002;</li>
+<li>&#x5F53;&#x8BE2;&#x95EE;&#x662F;&#x5426;&#x4F7F;&#x7528;dbconfig-common&#x8BBE;&#x7F6E;&#x6570;&#x636E;&#x5E93;&#x65F6;&#xFF0C;&#x9009;&#x62E9;yes</li>
+<li>&#x7136;&#x540E;&#x60A8;&#x5C06;&#x88AB;&#x8981;&#x6C42;&#x9009;&#x62E9;&#x5E76;&#x786E;&#x8BA4;phpMyAdmin&#x7684;MySQL&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x5BC6;&#x7801; , &#x7528;&#x6237;&#x540D;&#x662F; <code>phpmyadmin</code></li>
+</ul>
+<pre><code class="lang-sh"><span class="hljs-comment"># &#x5EFA;&#x7ACB;/var/www/html &#x4E0B;&#x7684;&#x8F6F;&#x8FDE;&#x63A5;</span>
+sudo ln <span class="hljs-_">-s</span> /usr/share/phpmyadmin /var/www/html/phpmyadmin
+</code></pre>
+<p>&#x5B89;&#x88C5;&#x8FC7;&#x7A0B;&#x5C06;phpMyAdmin Apache&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x6DFB;&#x52A0;&#x5230;<code>/etc/apache2/conf-enabled/</code>&#x76EE;&#x5F55;&#x4E2D;&#xFF0C;&#x5E76;&#x5728;&#x8BE5;&#x76EE;&#x5F55;&#x4E2D;&#x81EA;&#x52A8;&#x8BFB;&#x53D6;&#x3002; &#x6211;&#x4EEC;&#x552F;&#x4E00;&#x9700;&#x8981;&#x505A;&#x7684;&#x5C31;&#x662F;&#x660E;&#x786E;&#x5730;&#x542F;&#x7528;<code>mbstring</code> PHP&#x6269;&#x5C55;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x952E;&#x5165;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x6765;&#x5B9E;&#x73B0;&#xFF1A;</p>
+<pre><code>sudo phpenmod mbstring
+</code></pre><p>&#x4E4B;&#x540E;&#xFF0C;&#x60A8;&#x9700;&#x8981;&#x91CD;&#x65B0;&#x542F;&#x52A8;Apache&#x624D;&#x80FD;&#x8BC6;&#x522B;&#x60A8;&#x7684;&#x66F4;&#x6539;&#xFF1A;</p>
+<pre><code>sudo systemctl restart apache2
+</code></pre><p>&#x60A8;&#x73B0;&#x5728;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8BBF;&#x95EE;&#x670D;&#x52A1;&#x5668;&#x7684;&#x57DF;&#x540D;&#x6216;&#x516C;&#x5171;IP&#x5730;&#x5740;&#xFF0C;&#x7136;&#x540E;&#x8BBF;&#x95EE;<code>/phpmyadmin</code>&#x6765;&#x8BBF;&#x95EE;Web&#x754C;&#x9762;&#xFF1A;</p>
+<pre><code class="lang-sh">https://your_domain_or_IP/phpmyadmin
+<span class="hljs-comment"># https://217.160.61.19/phpmyadmin</span>
+</code></pre>
+<p>&#x547D;&#x4EE4;&#x884C;&#x767B;&#x9646;&#xFF0C;&#x67E5;&#x770B;&#x7528;&#x6237; <code>phpmyadmin</code> &#x7684;&#x6743;&#x9650;</p>
+<pre><code class="lang-mysql">mysql&gt; show grants for phpmyadmin@localhost;
+</code></pre>
+<blockquote>
+<p>+--------------------------------------------------------------------+
+| Grants for phpmyadmin@localhost                      |
++--------------------------------------------------------------------+
+| GRANT USAGE ON <em>.</em> TO &apos;phpmyadmin&apos;@&apos;localhost&apos;                     |
+| GRANT ALL PRIVILEGES ON <code>phpmyadmin</code>.* TO &apos;phpmyadmin&apos;@&apos;localhost&apos; |
++--------------------------------------------------------------------+
+2 rows in set (0.00 sec)</p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="install_nodejs.html" class="navigation navigation-prev " aria-label="Previous page: 1.1 Node 配置">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="python_and_jupyter.html" class="navigation navigation-next " aria-label="Next page: 1.3 Python 以及 Jupyter Notebook">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"1.2 MySQL 数据库","level":"1.2.2","depth":2,"next":{"title":"1.3 Python 以及 Jupyter Notebook","level":"1.2.3","depth":2,"path":"Chapter1/python_and_jupyter.md","ref":"Chapter1/python_and_jupyter.md","articles":[]},"previous":{"title":"1.1 Node 配置","level":"1.2.1","depth":2,"path":"Chapter1/install_nodejs.md","ref":"Chapter1/install_nodejs.md","articles":[]},"dir":"ltr"},"config":{"plugins":["mathjax","page-toc"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"mathjax":{"forceSVG":false,"version":"2.6-latest"},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"鎏金天涯 <mai.yongfeng@gmail.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"构建个人金融平台","links":{"sidebar":{"鎏金天涯个人博客":"http://goldentianya.pub"}},"gitbook":"*","description":"构建个人金融平台过程中的备案文档，以备查阅。"},"file":{"path":"Chapter1/insatll_mysql.md","mtime":"2019-08-15T09:08:46.384Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-15T09:27:49.129Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdn.mathjax.org/mathjax/2.6-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mathjax/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
