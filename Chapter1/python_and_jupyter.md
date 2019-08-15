@@ -4,11 +4,23 @@
 
 ## 安装 python 以及 工具包
 
+Ubuntu 16.04 以上版本预装了Python 3和Python 2。 为确保是最新版本，用 `apt-get` 更新和升级系统：
+
+```sh
+$ sudo apt-get update
+$ sudo apt-get -y upgrade
+```
+
+本地系统到 python 官网下载安装包双击安装。
+
+
+
 [安装库文件管理工具 pip](https://pip.pypa.io/en/stable/installing/) 
 
 > Windows 中安装完要加到 $path$ 路径变量中去。
 
 ### 基础工具包
+
 #### 数学包
 
 ```sh
