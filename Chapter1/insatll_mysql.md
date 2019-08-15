@@ -123,3 +123,4 @@ mysql> show grants for phpmyadmin@localhost;
 2 rows in set (0.00 sec)
 ```
 
+同样可以添加和设置其它用户。
