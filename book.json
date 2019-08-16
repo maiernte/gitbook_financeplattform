@@ -3,7 +3,7 @@
     "author": "鎏金天涯 <mai.yongfeng@gmail.com>",
     "description": "构建个人金融平台过程中的备案文档，以备查阅。",
     "generator": "site",
-	"plugins": ["mathjax", "page-toc" ],
+	"plugins": ["mathjax", "page-toc", "advanced-emoji"],
     "links": {
         "sidebar": {
             "鎏金天涯个人博客": "http://goldentianya.pub"
