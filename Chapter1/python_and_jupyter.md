@@ -4,7 +4,7 @@
 
 ## 安装 python 以及 工具包
 
-Ubuntu 16.04 以上版本预装了Python 3和Python 2。 为确保是最新版本，用 `apt-get` 更新和升级系统：
+:white_check_mark: Ubuntu 16.04 以上版本预装了Python 3和Python 2。 为确保是最新版本，用 `apt-get` 更新和升级系统：
 
 ```sh
 $ sudo apt-get update
@@ -13,11 +13,27 @@ $ sudo apt-get -y upgrade
 
 本地系统到 python 官网下载安装包双击安装。
 
-
+### 安装 pip
 
 [安装库文件管理工具 pip](https://pip.pypa.io/en/stable/installing/) 
 
 > Windows 中安装完要加到 $path$ 路径变量中去。
+
+远程终端安装
+
+```sh
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+pip install -U pip # Upgrading pip
+```
+
+安装 pip3
+
+```sh
+sudo apt-get -y install python3-pip
+```
+
+
 
 ### 基础工具包
 
@@ -61,6 +77,13 @@ Enter password: # 我在自己服务器的密码是
 Verify password: 
 [NotebookPasswordApp] Wrote hashed password to /root/.jupyter/jupyter_notebook_config.json
 ```
+
+> 安装过程出现错误：
+> ERROR: jsonschema 3.0.2 has requirement six>=1.11.0, but you'll have six 1.10.0 which is incompatible.
+>
+> 运行安装相应版本额度 six 
+>
+> `pip install six==1.11.0`
 
 :bell: 因为 **Jupyter notebook** 可以启动终端，并进行任何操作。所以十分危险，密码一定要够健壮。修改密码的命令是 `jupyter notebook password`。
 

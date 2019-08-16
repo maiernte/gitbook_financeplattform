@@ -113,11 +113,14 @@ https://your_domain_or_IP/phpmyadmin
 mysql> show grants for phpmyadmin@localhost;
 ```
 
-> +--------------------------------------------------------------------+
-> | Grants for phpmyadmin@localhost                      |
-> +--------------------------------------------------------------------+
-> | GRANT USAGE ON *.* TO 'phpmyadmin'@'localhost'                     |
-> | GRANT ALL PRIVILEGES ON `phpmyadmin`.* TO 'phpmyadmin'@'localhost' |
-> +--------------------------------------------------------------------+
-> 2 rows in set (0.00 sec)
+```
++--------------------------------------------------------------------+
+| Grants for phpmyadmin@localhost                                    |
++--------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO 'phpmyadmin'@'localhost'                     |
+| GRANT ALL PRIVILEGES ON `phpmyadmin`.* TO 'phpmyadmin'@'localhost' |
++--------------------------------------------------------------------+
+2 rows in set (0.00 sec)
+```
 
+同样可以添加和设置其它用户。
