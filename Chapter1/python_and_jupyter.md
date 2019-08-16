@@ -4,7 +4,7 @@
 
 ## 安装 python 以及 工具包
 
-Ubuntu 16.04 以上版本预装了Python 3和Python 2。 为确保是最新版本，用 `apt-get` 更新和升级系统：
+:white_check_mark: Ubuntu 16.04 以上版本预装了Python 3和Python 2。 为确保是最新版本，用 `apt-get` 更新和升级系统：
 
 ```sh
 $ sudo apt-get update
