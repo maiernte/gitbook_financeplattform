@@ -1,0 +1,531 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1.3 Python 以及 Jupyter Notebook · 构建个人金融平台</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="鎏金天涯 <mai.yongfeng@gmail.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="install_angular.html" />
+    
+    
+    <link rel="prev" href="insatll_mysql.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://goldentianya.pub" target="_blank" class="custom-link">鎏金天涯个人博客</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    第一章 基础环境的搭建
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="install_nodejs.html">
+            
+                <a href="install_nodejs.html">
+            
+                    
+                    1.1 Node 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="insatll_mysql.html">
+            
+                <a href="insatll_mysql.html">
+            
+                    
+                    1.2 MySQL 数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="python_and_jupyter.html">
+            
+                <a href="python_and_jupyter.html">
+            
+                    
+                    1.3 Python 以及 Jupyter Notebook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="install_angular.html">
+            
+                <a href="install_angular.html">
+            
+                    
+                    1.4 Angular 环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Chapter2/">
+            
+                <a href="../Chapter2/">
+            
+                    
+                    第二章 后台数据服务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <span>
+            
+                    
+                    数据爬取
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" >
+            
+                <span>
+            
+                    
+                    数据加工
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第三章 前台网站
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                    网站整体设计
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" >
+            
+                <span>
+            
+                    
+                    蚂蚁可视化方案
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第四章 用户管理和推广
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >1.3 Python 以及 Jupyter Notebook</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="python-&#x4EE5;&#x53CA;-jupyter-notebook">Python &#x4EE5;&#x53CA; Jupyter Notebook</h1>
+<p><a href="https://www.w3schools.com/python/default.asp" target="_blank">w3schools</a></p>
+<h2 id="&#x5B89;&#x88C5;-python-&#x4EE5;&#x53CA;-&#x5DE5;&#x5177;&#x5305;">&#x5B89;&#x88C5; python &#x4EE5;&#x53CA; &#x5DE5;&#x5177;&#x5305;</h2>
+<p><img align="absmiddle" alt=":white_check_mark:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/white_check_mark.png" title=":white_check_mark:"> Ubuntu 16.04 &#x4EE5;&#x4E0A;&#x7248;&#x672C;&#x9884;&#x88C5;&#x4E86;Python 3&#x548C;Python 2&#x3002; &#x4E3A;&#x786E;&#x4FDD;&#x662F;&#x6700;&#x65B0;&#x7248;&#x672C;&#xFF0C;&#x7528; <code>apt-get</code> &#x66F4;&#x65B0;&#x548C;&#x5347;&#x7EA7;&#x7CFB;&#x7EDF;&#xFF1A;</p>
+<pre><code class="lang-sh">$ sudo apt-get update
+$ sudo apt-get -y upgrade
+</code></pre>
+<p>&#x672C;&#x5730;&#x7CFB;&#x7EDF;&#x5230; python &#x5B98;&#x7F51;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x5305;&#x53CC;&#x51FB;&#x5B89;&#x88C5;&#x3002;</p>
+<h3 id="&#x5B89;&#x88C5;-pip">&#x5B89;&#x88C5; pip</h3>
+<p><a href="https://pip.pypa.io/en/stable/installing/" target="_blank">&#x5B89;&#x88C5;&#x5E93;&#x6587;&#x4EF6;&#x7BA1;&#x7406;&#x5DE5;&#x5177; pip</a> </p>
+<blockquote>
+<p>Windows &#x4E2D;&#x5B89;&#x88C5;&#x5B8C;&#x8981;&#x52A0;&#x5230; $path$ &#x8DEF;&#x5F84;&#x53D8;&#x91CF;&#x4E2D;&#x53BB;&#x3002;</p>
+</blockquote>
+<p>&#x8FDC;&#x7A0B;&#x7EC8;&#x7AEF;&#x5B89;&#x88C5;</p>
+<pre><code class="lang-sh">curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+pip install -U pip <span class="hljs-comment"># Upgrading pip</span>
+</code></pre>
+<p>&#x5B89;&#x88C5; pip3</p>
+<pre><code class="lang-sh">sudo apt-get -y install python3-pip
+</code></pre>
+<h3 id="&#x57FA;&#x7840;&#x5DE5;&#x5177;&#x5305;">&#x57FA;&#x7840;&#x5DE5;&#x5177;&#x5305;</h3>
+<h4 id="&#x6570;&#x5B66;&#x5305;">&#x6570;&#x5B66;&#x5305;</h4>
+<pre><code class="lang-sh"><span class="hljs-comment"># NumPy&#xFF08;Numerical Python&#x7684;&#x7B80;&#x79F0;&#xFF09;&#x662F;&#x9AD8;&#x6027;&#x80FD;&#x79D1;&#x5B66;&#x8BA1;&#x7B97;&#x548C;&#x6570;&#x636E;&#x5206;&#x6790;&#x7684;&#x57FA;&#x7840;&#x5305;&#x3002;</span>
+pip install numpy
+<span class="hljs-comment"># or </span>
+pip install scipy
+pip install pandas <span class="hljs-comment"># &#x6784;&#x5EFA;&#x5728; numpy &#x4E4B;&#x4E0A;&#x7684;&#x6570;&#x5B66;&#x5904;&#x7406;&#x5305;</span>
+<span class="hljs-comment"># &#x67E5;&#x770B;package&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;</span>
+pip show scipy
+</code></pre>
+<h4 id="matplotlib">matplotlib</h4>
+<p>&#x8FD9;&#x4E2A;&#x5305;&#x65F6;&#x8D1F;&#x8D23;&#x56FE;&#x5F62;&#x5904;&#x7406;&#x3002;</p>
+<p>&#x5B89;&#x88C5; <code>pip install matplotlib</code></p>
+<p>&#x542F;&#x52A8;&#x65F6;&#x5982;&#x679C;&#x8981;&#x8F7D;&#x5165;&#x8FD9;&#x4E2A;&#x5305;&#xFF0C;&#x53EF;&#x4EE5;&#x52A0;&#x53C2;&#x6570; <code>ipython --pylab</code></p>
+<h3 id="ipython-&#x548C;-jupyter">ipython &#x548C; jupyter</h3>
+<pre><code class="lang-sh">pip3 install --upgrade pip
+pip3 install jupyter
+<span class="hljs-comment"># &#x542F;&#x52A8; jupyter </span>
+jupyter notebook
+</code></pre>
+<p>&#x542F;&#x52A8; <code>jupyter</code> &#x4E4B;&#x540E;&#xFF0C; &#x5728;&#x7F51;&#x9875;&#x7684;&#x53F3;&#x4E0A;&#x89D2;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A; <code>.ipynb</code> &#x6587;&#x4EF6;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x7F51;&#x9875;&#x7248;&#x7684;&#x4E92;&#x52A8;&#x884C;&#x547D;&#x4EE4;&#x3002;&#x800C;&#x76F4;&#x63A5;&#x5728;&#x7EC8;&#x7AEF;&#x542F;&#x52A8;&#x7684; <code>ipython</code>&#x5C31;&#x662F;&#x5B58;&#x50A8;&#x7684;&#x7EC8;&#x7AEF;&#xFF0C;&#x6BD4;&#x8F83;&#x96BE;&#x7528;&#x3002;&#x8FD9;&#x4E2A;<strong>jupyter</strong> &#x5176;&#x5B9E;&#x53EF;&#x4EE5;&#x5E03;&#x5C40;&#x5230;&#x670D;&#x52A1;&#x5668;&#x4E2D;&#xFF0C;&#x90A3;&#x4E48;</p>
+<h4 id="ubuntu-&#x670D;&#x52A1;&#x5668;-&#x5B89;&#x88C5;-jupyter">Ubuntu &#x670D;&#x52A1;&#x5668; &#x5B89;&#x88C5; jupyter</h4>
+<pre><code class="lang-sh">pip install Jupyter <span class="hljs-comment"># &#x5B89;&#x88C5; jupyter </span>
+jupyter notebook --generate-config <span class="hljs-comment"># &#x751F;&#x6210;Jupyter Notebook&#x914D;&#x7F6E;&#x6587;&#x4EF6;</span>
+jupyter notebook password <span class="hljs-comment"># &#x914D;&#x7F6E;&#x5BC6;&#x7801;</span>
+Enter password: <span class="hljs-comment"># &#x6211;&#x5728;&#x81EA;&#x5DF1;&#x670D;&#x52A1;&#x5668;&#x7684;&#x5BC6;&#x7801;&#x662F; </span>
+Verify password: 
+[NotebookPasswordApp] Wrote hashed password to /root/.jupyter/jupyter_notebook_config.json
+</code></pre>
+<blockquote>
+<p>&#x5B89;&#x88C5;&#x8FC7;&#x7A0B;&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#xFF1A;
+ERROR: jsonschema 3.0.2 has requirement six&gt;=1.11.0, but you&apos;ll have six 1.10.0 which is incompatible.</p>
+<p>&#x8FD0;&#x884C;&#x5B89;&#x88C5;&#x76F8;&#x5E94;&#x7248;&#x672C;&#x989D;&#x5EA6; six </p>
+<p><code>pip install six==1.11.0</code></p>
+</blockquote>
+<p><img align="absmiddle" alt=":bell:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/bell.png" title=":bell:"> &#x56E0;&#x4E3A; <strong>Jupyter notebook</strong> &#x53EF;&#x4EE5;&#x542F;&#x52A8;&#x7EC8;&#x7AEF;&#xFF0C;&#x5E76;&#x8FDB;&#x884C;&#x4EFB;&#x4F55;&#x64CD;&#x4F5C;&#x3002;&#x6240;&#x4EE5;&#x5341;&#x5206;&#x5371;&#x9669;&#xFF0C;&#x5BC6;&#x7801;&#x4E00;&#x5B9A;&#x8981;&#x591F;&#x5065;&#x58EE;&#x3002;&#x4FEE;&#x6539;&#x5BC6;&#x7801;&#x7684;&#x547D;&#x4EE4;&#x662F; <code>jupyter notebook password</code>&#x3002;</p>
+<p>&#x8BBE;&#x7F6E;&#x670D;&#x52A1;&#x5668;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</p>
+<pre><code class="lang-python">vim ~/.jupyter/jupyter_notebook_config.py
+
+c.NotebookApp.ip = <span class="hljs-string">&apos;*&apos;</span> <span class="hljs-comment">#&#x6240;&#x6709;&#x7ED1;&#x5B9A;&#x670D;&#x52A1;&#x5668;&#x7684;IP&#x90FD;&#x80FD;&#x8BBF;&#x95EE;&#xFF0C;&#x82E5;&#x60F3;&#x53EA;&#x5728;&#x7279;&#x5B9A;ip&#x8BBF;&#x95EE;&#xFF0C;&#x8F93;&#x5165;ip&#x5730;&#x5740;&#x5373;&#x53EF;</span>
+c.NotebookApp.port = <span class="hljs-number">8888</span> <span class="hljs-comment">#&#x5C06;&#x7AEF;&#x53E3;&#x8BBE;&#x7F6E;&#x4E3A;&#x81EA;&#x5DF1;&#x559C;&#x6B22;&#x7684;&#x5427;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F;8888</span>
+c.NotebookApp.open_browser = <span class="hljs-keyword">False</span> <span class="hljs-comment">#&#x6211;&#x4EEC;&#x5E76;&#x4E0D;&#x60F3;&#x5728;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x76F4;&#x63A5;&#x6253;&#x5F00;Jupyter Notebook&#xFF0C;&#x6240;&#x4EE5;&#x8BBE;&#x7F6E;&#x6210;False</span>
+c.NotebookApp.notebook_dir = <span class="hljs-string">&apos;/root/jupyter_projects&apos;</span> <span class="hljs-comment">#&#x8FD9;&#x91CC;&#x662F;&#x8BBE;&#x7F6E;Jupyter&#x7684;&#x6839;&#x76EE;&#x5F55;&#xFF0C;&#x82E5;&#x4E0D;&#x8BBE;&#x7F6E;&#x5C06;&#x9ED8;&#x8BA4;root&#x7684;&#x6839;&#x76EE;&#x5F55;&#xFF0C;&#x4E0D;&#x5B89;&#x5168;</span>
+c.NotebookApp.allow_root = <span class="hljs-keyword">True</span> <span class="hljs-comment"># &#x4E3A;&#x4E86;&#x5B89;&#x5168;&#xFF0C;Jupyter&#x9ED8;&#x8BA4;&#x4E0D;&#x5141;&#x8BB8;&#x4EE5;root&#x6743;&#x9650;&#x542F;&#x52A8;jupyter</span>
+</code></pre>
+<p>&#x6700;&#x540E;&#x542F;&#x52A8;jupyter&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668; <code>jupyter notebook</code></p>
+<blockquote>
+<p>&#x5165;&#x95E8;&#x7EA7;: <code>jupyter notebook --allow-root &gt; jupyter.log 2&gt;&amp;1 &amp;</code></p>
+<p>&#x8FDB;&#x9636;&#x7248;: <code>nohup jupyter notebook --allow-root &gt; jupyter.log 2&gt;&amp;1 &amp;</code></p>
+<p>&#x7528;<code>&amp;</code>&#x8BA9;&#x547D;&#x4EE4;&#x540E;&#x53F0;&#x8FD0;&#x884C;, &#x5E76;&#x628A;&#x6807;&#x51C6;&#x8F93;&#x51FA;&#x5199;&#x5165;jupyter.log&#x4E2D;</p>
+<p><code>nohup</code>&#x8868;&#x793A;no hang up, &#x5C31;&#x662F;&#x4E0D;&#x6302;&#x8D77;, &#x4E8E;&#x662F;&#x8FD9;&#x4E2A;&#x547D;&#x4EE4;&#x6267;&#x884C;&#x540E;&#x5373;&#x4F7F;&#x7EC8;&#x7AEF;&#x9000;&#x51FA;, &#x4E5F;&#x4E0D;&#x4F1A;&#x505C;&#x6B62;&#x8FD0;&#x884C;.</p>
+<p>&#x6267;&#x884C;&#x4E0A;&#x9762;&#x7B2C;2&#x6761;&#x547D;&#x4EE4;, &#x53EF;&#x4EE5;&#x53D1;&#x73B0;&#x5173;&#x95ED;&#x7EC8;&#x7AEF;&#x91CD;&#x65B0;&#x6253;&#x5F00;&#x540E;, &#x7528;<code>jobs</code>&#x627E;&#x4E0D;&#x5230;jupyter&#x8FD9;&#x4E2A;&#x8FDB;&#x7A0B;&#x4E86;, &#x4E8E;&#x662F;&#x8981;&#x7528;<code>ps -a</code>, &#x53EF;&#x4EE5;&#x663E;&#x793A;&#x8FD9;&#x4E2A;&#x8FDB;&#x7A0B;&#x7684;pid.  <code>kill -9 pid</code> &#x53EF;&#x4EE5;&#x7EC8;&#x6B62;&#x8FDB;&#x7A0B;&#x3002;</p>
+</blockquote>
+<h3 id="pyqt">PyQt</h3>
+<p><a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4" target="_blank">PyQt4</a>  &#x5B89;&#x88C5;&#x76F8;&#x5E94;&#x7248;&#x672C;</p>
+<p><code>pip install PyQt4-4.11.4-cp35-none-win_amd64.whl</code></p>
+<p><a href="https://www.riverbankcomputing.com/static/Docs/PyQt5/installation.html" target="_blank">PyQt5</a></p>
+<p> <code>pip install PyQt5</code></p>
+<p>&#x542F;&#x52A8;&#x57FA;&#x4E8E; Qt &#x7684;&#x63A7;&#x5236;&#x53F0; <code>ipython qtconsole --pylab=inline</code></p>
+<h2 id="&#x8BED;&#x6CD5;&#x8981;&#x70B9;">&#x8BED;&#x6CD5;&#x8981;&#x70B9;</h2>
+<h3 id="jupyter-&#x547D;&#x4EE4;&#x952E;">jupyter &#x547D;&#x4EE4;&#x952E;</h3>
+<blockquote>
+<p><code>ESC</code>   &#x5207;&#x6362;&#x5230;&#x547D;&#x4EE4;&#x6A21;&#x5F0F;&#xFF08;&#x547D;&#x4EE4;&#x6A21;&#x5F0F;&#x76F8;&#x5F53;&#x4E8E;&#x89C6;&#x56FE;&#x6A21;&#x5F0F;&#xFF0C;&#x4E0D;&#x662F;&#x547D;&#x4EE4;&#x884C;&#xFF09;</p>
+<p><code>A</code>  &#x5728;&#x5F53;&#x524D;&#x5355;&#x5143;&#x683C;&#x4E0A;&#x65B9;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5355;&#x5143;&#x683C;
+<code>B</code>  &#x5728;&#x5F53;&#x524D;&#x5355;&#x5143;&#x683C;&#x4E0B;&#x65B9;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5355;&#x5143;&#x683C;
+<code>L</code>  &#x6253;&#x5F00;/&#x5173;&#x95ED;&#x884C;&#x53F7;
+<code>DD</code> &#x5220;&#x9664;&#x5F53;&#x524D;&#x5355;&#x5143;&#x683C;
+<code>S</code>  &#x624B;&#x52A8;&#x4FDD;&#x5B58;&#x7B14;&#x8BB0;&#x672C;
+<code>command</code>+<code>shift</code>+<code>P</code> &#x8C03;&#x51FA;&#x547D;&#x4EE4;&#x884C;&#xFF0C;&#x9002;&#x7528;&#x4E8E;&#x8C37;&#x6B4C;&#x4E2A;safari
+<code>H</code> &#x67E5;&#x8BE2;&#x547D;&#x4EE4;&#x884C;&#x547D;&#x4EE4;</p>
+<p><code>Y</code>    &#x4ECE;markdown&#x5207;&#x6362;&#x5230;&#x5355;&#x5143;&#x683C;
+<code>M</code>   &#x4ECE;&#x5355;&#x5143;&#x683C;&#x5374;&#x6362;&#x5230;markdown</p>
+<p><code>shift+Enter</code> &#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF0C;&#x6253;&#x5370;&#x8F93;&#x51FA;</p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="insatll_mysql.html" class="navigation navigation-prev " aria-label="Previous page: 1.2 MySQL 数据库">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="install_angular.html" class="navigation navigation-next " aria-label="Next page: 1.4 Angular 环境">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"1.3 Python 以及 Jupyter Notebook","level":"1.2.3","depth":2,"next":{"title":"1.4 Angular 环境","level":"1.2.4","depth":2,"path":"Chapter1/install_angular.md","ref":"Chapter1/install_angular.md","articles":[]},"previous":{"title":"1.2 MySQL 数据库","level":"1.2.2","depth":2,"path":"Chapter1/insatll_mysql.md","ref":"Chapter1/insatll_mysql.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex","page-toc","advanced-emoji","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"search":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"鎏金天涯 <mai.yongfeng@gmail.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"构建个人金融平台","links":{"sidebar":{"鎏金天涯个人博客":"http://goldentianya.pub"}},"gitbook":"*","description":"构建个人金融平台过程中的备案文档，以备查阅。"},"file":{"path":"Chapter1/python_and_jupyter.md","mtime":"2020-05-10T18:51:45.528Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-10T19:58:48.751Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
